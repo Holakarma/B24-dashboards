@@ -1,0 +1,7 @@
+.DashboardAddBtn:hover {
+    cursor: pointer;
+
+    &:hover {
+        border-color: var(--bs-text-emphasis);
+    }
+}

@@ -1,0 +1,12 @@
+.menuP {
+    & ul {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+.inputP {
+    & input {
+        padding: 14px 14px 12px;
+    }
+}

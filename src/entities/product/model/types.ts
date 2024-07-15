@@ -1,0 +1,24 @@
+export type TProduct = {
+    customized: string;
+    discountRate: number;
+    discountSum: number;
+    discountTypeId: number;
+    id: number;
+    measureCode: number;
+    measureName: string;
+    ownerId: number;
+    ownerType: string;
+    price: number;
+    priceAccount: number;
+    priceBrutto: number;
+    priceExclusive: number;
+    priceNetto: number;
+    productId: number;
+    productName: string;
+    quantity: number;
+    sort: number;
+    taxIncluded: 'N' | 'Y';
+    taxRate: null;
+    type: number;
+    xmlId: string;
+};

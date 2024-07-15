@@ -1,0 +1,23 @@
+.spanHover {
+    position: relative;
+}
+
+.underline:after {
+    position: absolute;
+    bottom: -7px;
+    left: 0px;
+    display: block; 
+    content: ""; 
+    height: 3px; 
+    width: 0%; 
+    background-color: #225384; 
+    transition: all 0.4s ease-in-out; 
+}
+
+.underline:hover:after {
+    width: 100%;
+}
+
+.underline:active:after {
+    background-color: #1e9d29;
+}

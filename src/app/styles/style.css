@@ -1,0 +1,22 @@
+.body,
+html {}
+
+#app {
+    min-height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+.MuiAvatar-root {
+    border-color: var(--bs-border-color) !important;
+}
+
+:root {
+    --bs-body-bg: #282828;
+}
+
+body {
+    /* background-color: transparent; */
+}
